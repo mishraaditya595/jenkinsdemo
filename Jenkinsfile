@@ -9,7 +9,7 @@ pipeline {
         stage('sample 2') { 
             steps { 
                echo 'addition...' 
-               sh 'python hello.py'
+               sh 'python3 hello.py'
               //bat 'mvn package'
             }
         }
